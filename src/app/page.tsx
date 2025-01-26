@@ -1,6 +1,7 @@
 import CustomPackageForm from "@/components/CustomPackageForm"
 import ImageSlider from "@/components/ImageSlider"
 import PackageCard from "@/components/PackageCard"
+import WhyChooseUs from "@/components/WhyChooseUs"
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
         </section>
         <section>
           <CustomPackageForm />
+        </section>
+        <section>
+          <WhyChooseUs />
         </section>
       </main>
       {/* <footer className="bg-gray-800 text-white py-6">

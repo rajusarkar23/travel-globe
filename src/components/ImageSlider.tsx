@@ -22,7 +22,7 @@ export default function ImageSlider() {
     }, [])
 
     return (
-        <div className="relative h-[400px] overflow-hidden">
+        <div className="relative h-[600px] overflow-hidden">
             {images.map((src, index) => (
                 <Image
                     key={src}

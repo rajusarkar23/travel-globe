@@ -25,7 +25,7 @@ export default function PackageCard() {
 
     return (
         <div className="mt-8 p-4">
-            <h2 className="text-3xl text-orange-500 font-bold underline py-3 mb-2 text-center">Our packagaes</h2>
+            <h2 className="text-3xl text-orange-500 font-bold underline py-3 mb-2 text-center decoration-orange-500 decoration-2 underline-offset-8">Our packagaes</h2>
             {/* Desktop Layout */}
             <div className="hidden md:flex justify-center gap-6">
                 {packageData.map((item, index) => (
