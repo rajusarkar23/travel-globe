@@ -25,7 +25,8 @@ export default function PackageCard() {
 
     return (
         <div className="mx-auto max-w-4xl px-4 flex flex-col items-center bg-white border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 mt-8 mb-8">
-            <h2 className="text-3xl text-blue-500 font-bold underline py-3 mb-2 text-center decoration-blue-500 decoration-2 underline-offset-8">Our packagaes</h2>
+            <h2 className="text-3xl text-blue-500 font-bold underline py-3 mb-2 text-center decoration-blue-500 decoration-2 underline-offset-8">Our Packages</h2>
+            
             {/* Desktop Layout */}
             <div className="hidden md:flex justify-center gap-6">
                 {packageData.map((item, index) => (
@@ -42,7 +43,7 @@ export default function PackageCard() {
                             <p className="text-gray-700">
                                 <span className="font-semibold">Duration:</span> <span className="text-blue-500 font-bold">{item.duration}</span>
                             </p>
-                            <p >
+                            <p>
                                 <span className="text-gray-700 font-semibold">Room Type:</span> <span className="text-blue-500 font-bold">{item.roomType}</span>
                             </p>
                             <p className="text-gray-700">
@@ -58,7 +59,7 @@ export default function PackageCard() {
             </div>
 
             {/* Mobile Layout */}
-            <div className="md:hidden overflow-x-auto whitespace-nowrap scroll-smooth">
+            <div className="md:hidden overflow-x-auto whitespace-nowrap scroll-smooth w-full">
                 <div className="inline-flex gap-6">
                     {packageData.map((item, index) => (
                         <div
