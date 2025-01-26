@@ -1,3 +1,4 @@
+import CustomPackageForm from "@/components/CustomPackageForm"
 import ImageSlider from "@/components/ImageSlider"
 import PackageCard from "@/components/PackageCard"
 
@@ -11,7 +12,7 @@ export default function Home() {
       </header>
       <main>
         <ImageSlider />
-        <section className="mt-8 border border-green-200 rounded-lg shadow-xl shadow-green-400/50 max-w-2xl mx-auto bg-white hover:shadow-2xl transition-shadow duration-300">
+        <section className="mt-8 border border-green-200 rounded-lg shadow-xl shadow-green-400/50 max-w-4xl mx-auto bg-white hover:shadow-2xl transition-shadow duration-300">
           <div className="text-center py-6">
             <h1 className="text-3xl font-extrabold text-green-600 underline decoration-green-500 decoration-2 underline-offset-8">
               About Sundarban
@@ -33,6 +34,9 @@ export default function Home() {
         </section>
         <section>
           <PackageCard />
+        </section>
+        <section>
+          <CustomPackageForm />
         </section>
       </main>
       {/* <footer className="bg-gray-800 text-white py-6">

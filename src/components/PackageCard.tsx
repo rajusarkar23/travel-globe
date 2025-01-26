@@ -25,6 +25,7 @@ export default function PackageCard() {
 
     return (
         <div className="mt-8 p-4">
+            <h2 className="text-3xl text-orange-500 font-bold underline py-3 mb-2 text-center">Our packagaes</h2>
             {/* Desktop Layout */}
             <div className="hidden md:flex justify-center gap-6">
                 {packageData.map((item, index) => (
@@ -38,11 +39,11 @@ export default function PackageCard() {
                                 <span className="font-semibold">Travelers count:</span>
                                 <span className="text-blue-500 font-bold">{item.persons}</span>
                             </p>
-                            <p >
+                            <p className="text-gray-700">
                                 <span className="font-semibold">Duration:</span> <span className="text-blue-500 font-bold">{item.duration}</span>
                             </p>
                             <p >
-                                <span className="font-semibold">Room Type:</span> <span className="text-blue-500 font-bold">{item.roomType}</span>
+                                <span className="text-gray-700 font-semibold">Room Type:</span> <span className="text-blue-500 font-bold">{item.roomType}</span>
                             </p>
                             <p className="text-gray-700">
                                 <span className="font-semibold">Price:</span>
