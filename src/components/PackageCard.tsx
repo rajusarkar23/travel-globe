@@ -83,7 +83,7 @@ export default function PackageCard() {
                                     <span className="text-green-600 font-bold">${item.price}</span>
                                 </p>
                             </div>
-                            <button className="mt-6 bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition-colors duration-300">
+                            <button className="mt-6 bg-green-500 text-white font-bold px-6 py-2 rounded-full hover:bg-green-600 transition-colors duration-300">
                                 Book Now
                             </button>
                         </div>

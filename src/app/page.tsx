@@ -9,11 +9,6 @@ import WhyChooseUs from "@/components/WhyChooseUs"
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-white shadow-md">
-        <div className="container mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-green-600">TravelInEase</h1>
-        </div>
-      </header>
       <main>
         <ImageSlider />
         <section>
