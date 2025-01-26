@@ -24,14 +24,14 @@ export default function PackageCard() {
     ];
 
     return (
-        <div className="mt-8 p-4">
-            <h2 className="text-3xl text-orange-500 font-bold underline py-3 mb-2 text-center decoration-orange-500 decoration-2 underline-offset-8">Our packagaes</h2>
+        <div className="mx-auto max-w-4xl px-4 flex flex-col items-center bg-white border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 mt-8 mb-8">
+            <h2 className="text-3xl text-blue-500 font-bold underline py-3 mb-2 text-center decoration-blue-500 decoration-2 underline-offset-8">Our packagaes</h2>
             {/* Desktop Layout */}
             <div className="hidden md:flex justify-center gap-6">
                 {packageData.map((item, index) => (
                     <div
                         key={index}
-                        className="border border-green-300 rounded-lg bg-white shadow-lg hover:shadow-xl duration-300 w-72 p-6 text-center transform hover:scale-105 transition-transform"
+                        className="border border-green-300 rounded-lg bg-white shadow-lg hover:shadow-xl duration-300 p-6 text-center transform transition-transform"
                     >
                         <p className="text-2xl font-bold text-green-600 mb-4">{item.packageName}</p>
                         <div className="space-y-3">

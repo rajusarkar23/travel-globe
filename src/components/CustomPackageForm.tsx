@@ -8,9 +8,9 @@ const rooms = [
 
 export default function CustomPackageForm() {
     return (
-        <div className="mx-auto max-w-4xl px-4 flex flex-col items-center">
+        <div className="mx-auto max-w-4xl px-4 flex flex-col items-center bg-white border border-gray-300 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 mt-8 mb-8">
             {/* Heading */}
-            <h2 className="text-3xl font-bold text-orange-500 text-center decoration-orange-500 decoration-2 underline underline-offset-8 mb-8">
+            <h2 className="text-3xl font-bold text-blue-500 text-center decoration-blue-500 decoration-2 underline underline-offset-8 mb-8">
                 Make Your Custom Package
             </h2>
 
