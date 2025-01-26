@@ -11,7 +11,7 @@ export default function WhyChooseUs() {
             {/* Content */}
             <div className="text-gray-700 space-y-6">
                 <p>
-                    At <strong>TravelInEase</strong>, we are dedicated to providing <strong>great hospitality</strong> and <strong>exceptional services</strong> to make your Sundarban tour an unforgettable experience. Our commitment to quality and guest satisfaction sets us apart as a trusted travel partner.
+                    At <strong>Delta Safari</strong>, we are dedicated to providing <strong>great hospitality</strong> and <strong>exceptional services</strong> to make your Sundarban tour an unforgettable experience. Our commitment to quality and guest satisfaction sets us apart as a trusted travel partner.
                 </p>
 
                 <p>
@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
                 </p>
 
                 <p>
-                    At <strong>TravelInEase</strong>, we believe in transparency and affordability. We offer <strong>customized tour packages</strong> tailored to your budget and preferences, ensuring a personalized experience. With no middlemen involved, you get the best prices directly from us, along with unmatched services.
+                    At <strong>Delta Safari</strong>, we believe in transparency and affordability. We offer <strong>customized tour packages</strong> tailored to your budget and preferences, ensuring a personalized experience. With no middlemen involved, you get the best prices directly from us, along with unmatched services.
                 </p>
 
                 <p>

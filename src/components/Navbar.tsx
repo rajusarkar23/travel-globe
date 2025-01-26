@@ -12,7 +12,7 @@ import {
     Button,
 } from "@heroui/react";
 
-export const TravelInEaseLogo = () => {
+export const DeltaSafariLogo = () => {
     return (
         <svg
             fill="green"
@@ -72,8 +72,8 @@ export default function NavbarComp() {
                     className="sm:hidden"
                 />
                 <NavbarBrand>
-                    <TravelInEaseLogo />
-                    <p className="font-bold text-inherit">TravelInEase</p>
+                    <DeltaSafariLogo />
+                    <p className="font-bold text-inherit">Delta Safari</p>
                 </NavbarBrand>
             </NavbarContent>
 
