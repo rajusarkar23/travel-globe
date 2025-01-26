@@ -62,7 +62,7 @@ export default function Testimonials() {
                         transition={{ duration: 0.2 }}
                         className="bg-white border border-green-300 rounded-lg shadow-lg p-6 text-center"
                     >
-                        <p className="text-gray-700 italic">"{reviews[currentReview].comment}"</p>
+                        <p className="text-gray-700 italic">`&quot;`{reviews[currentReview].comment}`&quot;`</p>
                         <p className="mt-4 font-semibold text-green-600">- {reviews[currentReview].name}</p>
                         <div className="mt-2 flex justify-center">
                             {[...Array(reviews[currentReview].rating)].map((_, i) => (

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, BriefcaseMedical, Camera, CarTaxiFront, ChefHat, ChevronRight, Eye, icons, ShieldCheck, Stethoscope, UtilityPole } from "lucide-react";
+import { BriefcaseMedical, Camera, CarTaxiFront, ChefHat, ShieldCheck, UtilityPole } from "lucide-react";
 import Link from "next/link";
 
 const services = [
