@@ -16,14 +16,14 @@ export default function Home() {
       </header>
       <main>
         <ImageSlider />
-        <section >
-            <AboutSundarban />
-        </section>
         <section>
           <PackageCard />
         </section>
         <section>
           <CustomPackageForm />
+        </section>
+        <section >
+            <AboutSundarban />
         </section>
         <section>
           <WhyChooseUs />
